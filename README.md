@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Ig News" src=".github/logo.svg" width="160px">
+  <img alt="Ig News" src=".github/logo.svg?v=01" width="160px">
 </p>
 
 <p align="center">  
@@ -9,7 +9,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="Ig News" src=".github/cover.svg" />
+    <img alt="Ig News" src=".github/cover.svg?v=01" />
 </h1>
 
 <br>
