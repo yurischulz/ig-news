@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="DT Money" src=".github/logo.svg" width="160px">
+  <img alt="Ig News" src=".github/logo.svg" width="160px">
 </p>
 
 <p align="center">  
@@ -9,7 +9,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="DT Money" src=".github/cover.svg" />
+    <img alt="Ig News" src=".github/cover.svg" />
 </h1>
 
 <br>
@@ -19,7 +19,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React](https://reactjs.org)
-- [MirageJS](https://miragejs.com/)
+- [Next](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## 🚀 Como executar
@@ -27,8 +27,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/yurischulz/dt-money
-$ cd dt-money
+$ git clone https://github.com/yurischulz/ig-news
+$ cd ig-news
 ```
 
 Para iniciá-lo, siga os passos abaixo:
@@ -38,20 +38,20 @@ Para iniciá-lo, siga os passos abaixo:
 $ yarn
 
 # Iniciar o projeto
-$ yarn start
+$ yarn dev
 ```
 
 O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
 ## 💻 Projeto
 
-DT Money é perfeito para realizar um controle financeiro simples, com entradas e saídas.
+Descrição
 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através do link abaixo:
 
-- [Layout Web](https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite-(Copy))
+- [Layout Web](https://www.figma.com/file/nJgJFeQ3iRrGR4CeTWqSwO/ig.news-(Copy)?node-id=0%3A1)
 
 ## 🔖 Design Técnico
 
