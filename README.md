@@ -57,7 +57,7 @@ Você pode visualizar o layout do projeto através do link abaixo:
 
 Você pode visualizar o design técnico do projeto através do link abaixo:
 
-- [Fluxograma](https://whimsical.com/flow-6g8NppjfbG8Usu7s9JQWT2)
+- [Fluxograma](https://whimsical.com/fluxograma-6g8NppjfbG8Usu7s9JQWT2@2Ux7TurymNLGihGDkczi)
 
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
 
