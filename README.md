@@ -66,3 +66,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 - [Add schema.org for blogs](https://schema.org/Blog)
 - [Add schema.org for blog posting](https://schema.org/BlogPosting)
+- [Implementar tratamento de notificações](https://www.yld.io/blog/global-notifications-with-reacts-context-api/)
