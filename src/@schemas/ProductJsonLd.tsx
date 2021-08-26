@@ -2,7 +2,10 @@ import { Product } from "schema-dts";
 import { JsonLd } from "react-schemaorg";
 
 interface ProductJsonProps {
-  product: any;
+  product: {
+    priceId: string;
+    amount: number;
+  };
 }
 
 export function ProductJsonLd({ product }: ProductJsonProps) {
@@ -12,17 +15,18 @@ export function ProductJsonLd({ product }: ProductJsonProps) {
         "@context": "https://schema.org",
         "@type": "Product",
         name: "Subscription",
-        description: "News about the React world. Get access to all the publications monthly",
+        description:
+          "News about the React world. Get access to all the publications monthly",
         productID: product.priceId,
         sku: product.priceId,
         category: "Subscriptions",
-        "offers": {
+        offers: {
           "@type": "Offer",
-          "availability": "https://schema.org/InStock",
-          "price": product.amount,
-          "priceCurrency": "USD"
+          availability: "https://schema.org/InStock",
+          price: product.amount,
+          priceCurrency: "USD",
         },
       }}
     />
-  )
+  );
 }
