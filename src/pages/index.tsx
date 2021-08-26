@@ -1,10 +1,10 @@
+import React from 'react';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
-import { Product } from "schema-dts";
-import { JsonLd } from "react-schemaorg";
 
-import { SubscribeButton } from '../components/SubscribeButton';
 import { stripe } from '../services/stripe';
+import { SubscribeButton } from '../components/SubscribeButton';
+import { ProductJsonLd } from '../@schemas/ProductJsonLd';
 
 import styles from './home.module.scss';
 
@@ -38,23 +38,7 @@ export default function Home({ product }: HomeProps) {
         <img src="/images/avatar.svg" alt="Girl coding" />
       </main>
 
-      <JsonLd<Product>
-        item={{
-          "@context": "https://schema.org",
-          "@type": "Product",
-          name: "Subscription",
-          description: "News about the React world. Get access to all the publications monthly",
-          productID: product.priceId,
-          sku: product.priceId,
-          category: "Subscriptions",
-          "offers": {
-            "@type": "Offer",
-            "availability": "https://schema.org/InStock",
-            "price": product.amount,
-            "priceCurrency": "USD"
-          },
-        }}
-      />
+      <ProductJsonLd product={product} />
     </>
   );
 }

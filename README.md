@@ -61,3 +61,8 @@ Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
 ## 📝 License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+# Todo
+
+- [Add schema.org for blogs](https://schema.org/Blog)
+- [Add schema.org for blog posting](https://schema.org/BlogPosting)
