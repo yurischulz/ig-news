@@ -2,10 +2,9 @@ import React from 'react';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
-import ProductJsonLd from '../@schemas/ProductJsonLd';
-
-import { SubscribeButton } from '../components/SubscribeButton';
 import { stripe } from '../services/stripe';
+import { SubscribeButton } from '../components/SubscribeButton';
+import { ProductJsonLd } from '../@schemas/ProductJsonLd';
 
 import styles from './home.module.scss';
 

@@ -5,7 +5,7 @@ interface ProductJsonProps {
   product: any;
 }
 
-export default function ProductJsonLd({ product }: ProductJsonProps) {
+export function ProductJsonLd({ product }: ProductJsonProps) {
   return (
     <JsonLd<Product>
       item={{
