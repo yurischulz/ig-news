@@ -55,9 +55,10 @@ Descrição
 
 Você pode visualizar o layout do projeto através do link abaixo:
 
-- [Layout Web](https://www.figma.com/file/nJgJFeQ3iRrGR4CeTWqSwO/ig.news-(Copy)?node-id=0%3A1)
+- [Layout Web](<https://www.figma.com/file/nJgJFeQ3iRrGR4CeTWqSwO/ig.news-(Copy)?node-id=0%3A1>)
 
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
+
 ## 📝 License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
