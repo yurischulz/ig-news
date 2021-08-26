@@ -18,9 +18,13 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [React](https://reactjs.org)
+- [React](https://reactjs.org/)
 - [Next](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+**API's**
+
+- [Stripe](https://stripe.com/docs/api/)
 
 ## 🚀 Como executar
 
@@ -53,14 +57,7 @@ Você pode visualizar o layout do projeto através do link abaixo:
 
 - [Layout Web](https://www.figma.com/file/nJgJFeQ3iRrGR4CeTWqSwO/ig.news-(Copy)?node-id=0%3A1)
 
-## 🔖 Design Técnico
-
-Você pode visualizar o design técnico do projeto através do link abaixo:
-
-- [Fluxograma](https://whimsical.com/fluxograma-6g8NppjfbG8Usu7s9JQWT2@2Ux7TurymNLGihGDkczi)
-
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
-
 ## 📝 License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
