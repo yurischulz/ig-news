@@ -1,3 +1,52 @@
 {
-  "extends": "next/core-web-vitals"
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "prettier"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "import": "readonly"
+  },
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "react/require-default-props": "warn",
+    "react/jsx-filename-extension": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/forbid-prop-types": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "array-callback-return": "error",
+    "ban-ts-comment": 0,
+    "comma-dangle": 0,
+    "complexity": ["error", 6],
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "import/prefer-default-export": 0,
+    "indent": ["error", 2, {
+      "ignoredNodes": ["TemplateLiteral"]
+    }],
+    "linebreak-style": 0,
+    "max-lines": ["error", 150],
+    "max-nested-callbacks": ["error", 2],
+    "max-statements": ["error", 10],
+    "max-statements-per-line": [
+      "error",
+      {
+        "max": 1
+      }
+    ],
+    "no-proto": 0,
+    "no-param-reassign": 0,
+    "no-console": "error",
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    "prefer-const": "error",
+    "template-curly-spacing" : "off"
+  }
 }
