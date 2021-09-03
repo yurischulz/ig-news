@@ -35,10 +35,9 @@ const handleSessionUser = async (session) => {
 
   return user.data.stripe_customer_id;
 }
-export type Fruit = "Orange" | "Apple" | "Banana";
 
 const CheckoutSession = async (req: NextApiRequest, res: NextApiResponse) => {
-  const { priceId } = req.query;
+  const priceId = req.query.priceId as string;
 
   if (req.method === "POST") {
     const session = await getSession({ req });
