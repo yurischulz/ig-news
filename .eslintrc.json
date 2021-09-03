@@ -29,13 +29,13 @@
     "import/no-extraneous-dependencies": 0,
     "import/no-unresolved": 0,
     "import/prefer-default-export": 0,
-    "indent": ["error", 2, {
-      "ignoredNodes": ["TemplateLiteral"]
-    }],
+    // "indent": ["error", 2, {
+    //   "ignoredNodes": ["TemplateLiteral"]
+    // }],
     "linebreak-style": 0,
     "max-lines": ["error", 150],
     "max-nested-callbacks": ["error", 2],
-    "max-statements": ["error", 10],
+    "max-statements": ["error", 15],
     "max-statements-per-line": [
       "error",
       {
@@ -44,7 +44,7 @@
     ],
     "no-proto": 0,
     "no-param-reassign": 0,
-    "no-console": "error",
+    // "no-console": "error",
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
     "prefer-const": "error",
     "template-curly-spacing" : "off"
